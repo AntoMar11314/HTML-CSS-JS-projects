@@ -1,0 +1,34 @@
+1) <section>  ---> OK
+2) display: flex; ---> OK
+3) flex-direction: column;  ---> OK
+4) text-transform: capitalize;  ---> OK
+5) text-shadow: 0.3rem 0.3rem 0.3rem #000; 
+6) position: absolute;
+7) transform: translate(-50%, -50%);
+8) transform: translate(-50%, -50%) scale(0);
+9) document.querySelectorAll('.section-1-icons');
+10) setInterval(() => {
+  const icon = document.querySelector(".section-1-icons .change");
+
+  icon.classList.remove("change");
+  icon.nextElementSibling.classList.add("change");
+}, 4000);
+
+11) transition: transform 0.3s;
+12) box-shadow: 1rem 1rem 1rem #000;
+13) justify-content: space-between / space-evenly / space-around
+14) text-transform: uppercase;
+15) content: "";
+16) transform: skewY(45deg);
+17) transform-origin: right;
+18) transform: rotateY(20deg) skewX(-2deg);
+19) transition: transform 0.5s, box-shadow 0.5s;
+20) object-fit: cover;
+21) flex-wrap: wrap;
+22) overflow: hidden;
+23) filter: blur(0.5rem);
+24) :: before CSS 
+25) ::after CSS 
+26) .addEventListener()
+27).classList.toggle()
+28)
